@@ -1,0 +1,141 @@
+.tweet-section {
+    width: 680px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 350px;
+    margin-top: 56px;
+    padding-top: 10px;
+    border-bottom: solid;
+    border-bottom-color: rgb(241, 239, 239);
+    z-index: 0;
+}
+
+.profile-pic {
+    align-items: center;
+    justify-content: start;
+    margin-right: 12px;
+}
+
+.dp-pic {
+    height: 60px;
+    width: 60 px;
+    border-radius: 30px;
+    border:solid;
+    border-color: rgb(240, 239, 239);
+  
+
+}
+
+.tweeet-border {
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    justify-content: left;
+
+}
+
+.what-happen {
+    font-size: 20px;
+    display: flex;
+    border: none;
+    outline: none;
+    padding-bottom: 80px;
+    overflow-wrap: break-word;
+    text-align: left;
+    justify-content: center;
+    width: 500px;
+    
+    
+    
+    
+}
+
+
+.everyone-reply {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: left;
+}
+
+.globe {
+    height: 20px;
+    align-items: center;
+
+}
+
+.every-one {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.tweet-button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-section {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.icon-div {
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+.icon-div .tooltips-one {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    background-color: rgb(143, 141, 141);
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: 2s;
+    bottom: -30px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 9px;
+   
+}
+
+.icon-div:hover .tooltips-one {
+    opacity: 1
+}
+
+.icon-div:hover {
+    background-color: rgb(232, 229, 229);
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+
+.icon-symbol {
+    height: 20px;
+    width:20px;
+}
+
+.just-tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.just-tweet:hover {
+    background-color:rgb(22, 132, 206) ;
+}

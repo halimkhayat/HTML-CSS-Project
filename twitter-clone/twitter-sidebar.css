@@ -1,0 +1,105 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    z-index: 5;
+    border-right: solid;
+    border-color: rgb(250, 246, 246);
+    background-color: white;
+    
+   
+
+}
+
+.sidebar-container {
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 150px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.twit-icon {
+  padding-left: 10px;
+}
+
+.twitter-bird {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.twitter-bird:hover {
+  background-color: rgb(207, 227, 242);
+  border-radius: 20px;
+}
+
+.twit-lik {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.side-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+ 
+}
+
+.side-button:hover {
+  background-color: rgb(234, 231, 231);
+  border-radius: 25px;
+  width: fit-content;
+  
+  
+}
+
+.icon-image {
+  height: 40px;
+  width: 40px;
+
+}
+
+.icon-phrase {
+  margin-left: 5px;
+}
+
+.lower-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.twit-compose {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 15px 70px 15px 70px;
+  border-radius: 30px;
+  cursor: pointer;
+ 
+}
+
+.twit-compose:hover {
+  background-color:rgb(22, 132, 206) ;
+}
