@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>twitter-clone</title>
+        <link rel="stylesheet" href="twitter-sidebar.css">
+        <link rel="stylesheet" href="twitter-general.css">
+        <link rel="stylesheet" href="header-twitter.css">
+        <link rel="stylesheet" href="tweet-section.css">
+        <link rel="stylesheet" href="user-section.css">
+        <link rel="stylesheet" href="right-sidebar.css">
+    </head>
+    <body>
+        <!-- This is the sidebar of the twitter content. Several button are on this panel-->
+        <section class="sidebar"> 
+            <div class="sidebar-container">
+                <!-- Upper-side -->
+                <div class="upper-container">
+                  <div class="twit-icon">
+                    <img class="twitter-bird" src="icon-twitter/icons8-twitter-48.png">
+                  </div>
+                  <div class="twit-link">
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-home-page-50.png">
+                      <div class="icon-phrase">Home</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-hashtag-50.png">
+                      <div class="icon-phrase">Explore</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-notification-50.png">
+                      <div class="icon-phrase">Notifications</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-mail-50.png">
+                      <div class="icon-phrase">Message</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-bookmarks-64.png">
+                      <div class="icon-phrase">Bookmarks</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-list-view-50.png">
+                      <div class="icon-phrase">Lists</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-customer-50.png">
+                      <div class="icon-phrase">Profile</div>
+                    </div>
+                    <div class="side-button">
+                      <img class="icon-image" src="icon-twitter/icons8-view-more-50.png">
+                      <div class="icon-phrase">More</div>
+                    </div>
+                  </div>
+                </div>
+                <!--lower-side-->
+                <div class="lower-container">
+                  <div><div class="twit-compose">Tweet</div>
+                </div>
+            </div>
+        </section>
+        
+        <!--This the right-side of sidebar-->
+        <section class="right-sidebar">
+          <div class="trending-section">
+            <div class="trends-for-you">
+              Trends For You
+            </div>
+            <div class="trending">
+              <div class="type-trending"> Sports &#183; Trending</div>
+              <div class="name-trending">Arteta</div>
+              <div class="tweet-count">25K Tweets</div>
+            </div>
+            <div class="trending">
+              <div class="type-trending"> Technology &#183; Trending</div>
+              <div class="name-trending">Iphone 13</div>
+              <div class="tweet-count">100K Tweets</div>
+            </div>
+            <div class="trending">
+              <div class="type-trending"> News &#183; Trending</div>
+              <div class="name-trending">Ukraine</div>
+              <div class="tweet-count">200K Tweets</div>
+            </div>
+            <div class="trending">
+              <div class="type-trending">Trending in Malaysia</div>
+              <div class="name-trending">Fasting</div>
+              <div class="tweet-count">58.5K Tweets</div>
+            </div>
+          </div>
+        </section>
+
+        <!--This is header of Twitter-->
+        <section class="header">
+          <div class="header-container">
+            <div class="home-left">Home</div>
+            <div class="favorite-section">
+              <img class="favorites-icon" src="icon-twitter/icons8-favorites-50.png">
+              <div class="favorite-tooltips"> Favorites</div>
+            </div>
+            <input class="search-bar" type="text" placeholder="Search Twitter">
+          </div>
+        </section>
+        <!--This is profile tweet section. User write their tweet on this section-->
+        <section class="tweet-section">
+          <div class="profile-pic">
+            <img class="dp-pic" src="icon-twitter/augustus_caesar.jpeg">
+          </div>
+          <div class="tweet-border">
+            <input class="what-happen" type="text" placeholder="What's Happening?">
+            <div class="everyone-reply">
+              <img class="globe" src="icon-twitter/icons8-asia-50.png">
+              <p class="every-one">Everyone can reply</p>
+            </div>
+            <!--small emoji under tweet box-->
+            <div class="tweet-button-row">
+              <div class="icon-section">
+                <div class="icon-div">
+                  <img class="icon-symbol" src="icon-twitter/icons8-image-50.png">
+                  <div class="tooltips-one">Image</div>
+                </div>
+                <div class="icon-div">
+                  <img class="icon-symbol"  src="icon-twitter/icons8-gif-50.png">
+                  <div class="tooltips-one">GIF</div>
+                </div>
+                <div class="icon-div">
+                  <img class="icon-symbol"  src="icon-twitter/icons8-poll-50.png">
+                  <div class="tooltips-one">Poll</div>
+                </div>
+                <div class="icon-div">
+                  <img class="icon-symbol"  src="icon-twitter/icons8-happy-50.png">
+                  <div class="tooltips-one">Emoji</div>
+                </div>
+                <div class="icon-div">
+                  <img class="icon-symbol"  src="icon-twitter/icons8-calendar-50.png">
+                  <div class="tooltips-one">Calendar</div>
+                </div>
+                <div class="icon-div">
+                  <img class="icon-symbol"  src="icon-twitter/icons8-location-50.png">
+                  <div class="tooltips-one">Location</div>
+                </div>
+              </div>
+              <div class="just-tweet">Tweet</div>
+            </div> 
+          </div>
+        </section>
+       
+        <!--Other user tweet section. Incoming tweet will pop up from this section-->
+
+        <section class="user-section">
+          <div class="user-pic">
+            <img class="the-user-pic" src="icon-twitter/legolas.webp">
+          </div>
+          <div class="user-tweet-section">
+            <div class="user-name">
+              <div class="the-name">Legolas</div>
+              <div class="tweet-handler">@Legolasthearcher</div>
+            </div>
+            <div class="user-tweet">I'm the greatest archer that ever existed!!!</div>
+            <div class="interaction-section">
+              <div class="reply-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-chat-64.png">
+                <div class="tooltips-two">Reply</div>
+              </div>
+              <div class="retweet-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-retweet-24.png">
+                <div class="tooltips-two">Retweet</div>
+              </div>
+              <div class="like-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-love-24.png">
+                <div class="tooltips-two">Like</div>
+              </div>
+              <div class="share-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-share-24.png">
+                <div class="tooltips-two">Share</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="user-section">
+          <div class="user-pic">
+            <img class="the-user-pic" src="icon-twitter/sheldon.webp">
+          </div>
+          <div class="user-tweet-section">
+            <div class="user-name">
+              <div class="the-name">Sheldon</div>
+              <div class="tweet-handler">@SheldonCooper</div>
+            </div>
+            <div class="user-tweet">If you eveer wondered why I cry??...For example, I cry because others are stupid and it makes me sad...</div>
+            <div class="interaction-section">
+              <div class="reply-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-chat-64.png">
+                <div class="tooltips-two">Reply</div>
+              </div>
+              <div class="retweet-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-retweet-24.png">
+                <div class="tooltips-two">Retweet</div>
+              </div>
+              <div class="like-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-love-24.png">
+                <div class="tooltips-two">Like</div>
+              </div>
+              <div class="share-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-share-24.png">
+                <div class="tooltips-two">Share</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="user-section">
+          <div class="user-pic">
+            <img class="the-user-pic" src="icon-twitter/ronaldo.jpeg">
+          </div>
+          <div class="user-tweet-section">
+            <div class="user-name">
+              <div class="the-name">C.Ronaldo</div>
+              <div class="tweet-handler">@RonaldoTheGoat</div>
+            </div>
+            <div class="user-tweet">Ronaldo stat is mindblowing...</div>
+            <div class="interaction-section">
+              <div class="reply-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-chat-64.png">
+                <div class="tooltips-two">Reply</div>
+              </div>
+              <div class="retweet-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-retweet-24.png">
+                <div class="tooltips-two">Retweet</div>
+              </div>
+              <div class="like-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-love-24.png">
+                <div class="tooltips-two">Like</div>
+              </div>
+              <div class="share-chat">
+                <img class="user-icon-adjust" src="icon-twitter/icons8-share-24.png">
+                <div class="tooltips-two">Share</div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </body>
+</html>
